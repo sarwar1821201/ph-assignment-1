@@ -67,3 +67,44 @@
     text-align: right;
     padding-right: 200px;
 }
+
+.person-text{
+    display:flex;
+    padding-top: 100px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.person-photo{
+    
+    padding-left: 60px;
+    border-radius: 50%;
+   background:pink;
+   margin-bottom: 30px;
+   margin-left: 50px;
+
+   
+}
+
+.failure-text{
+    padding-top:100px;
+    justify-content: left;
+}
+
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failure-description{
+    font-weight: normal;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-right: 220px;
+}
+
+.failure-text ul li{
+    list-style-type: none;
+    padding-top: 20px;
+  padding-left: 0;
+}
