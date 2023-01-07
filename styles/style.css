@@ -188,3 +188,41 @@ color: #474747;
     padding: 18px 36px;
 
 }
+
+.footer-section{
+    display: flex;
+    gap:300px;
+    background: black;
+    color:white;
+    padding: 130px 200px;
+}
+
+.foooter-title{
+    font-weight: 600;
+    font-size: 40px;
+    height: 50px;
+}
+
+.footer-description{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+   margin-top: 10px;
+   width:500px;
+}
+
+.footer-section a{
+    text-decoration: none;
+}
+
+.footer-section input[type=email]{
+    margin-top: 24px;
+    border:0;
+    width:100%;
+    padding: 18px 30px;
+    background-color: white;
+}
+
+.btn-subscribe{
+    margin-top: 20px;
+}
