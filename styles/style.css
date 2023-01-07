@@ -27,6 +27,10 @@
   background-color: grey;
  
  }
+  
+
+
+
 
  .banner-title{
     font-weight: 100px;
@@ -145,3 +149,42 @@ color: #474747;
     padding-left: 250px;
     padding-right: 200px;
  }
+
+ 
+
+ .gradient-field{
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52),rgba(117,19,93,0.73)),
+                      url('../images/watch.png');
+    width:1000px;
+    height: 300px;
+    background-size: auto;
+    position: relative;
+     margin-left: 200px;
+    margin-top: 100px;
+   margin-right: 300px;
+    margin-bottom: 50px;
+    /*background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
+    border-radius: 8px;
+
+}
+
+.text-field{
+    padding-top: 30px;
+    font-weight: normal;
+    margin-top: 100px;
+    margin-right:200px ;
+    color:orangered;
+    margin-left:150px ;
+    font-size: 30px;
+    width: 600px;
+    height: 100px;
+}
+
+.btn-title{
+    color:orangered;
+    border-radius: 5px solid white;
+    font-size: 20px;
+    background: white;
+    padding: 18px 36px;
+
+}
